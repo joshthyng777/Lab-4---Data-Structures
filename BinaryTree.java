@@ -20,13 +20,7 @@ public class BinaryTree {
     public void testing() {
       
     }
-
-    public static void main(String[] args) {
-        MyBinaryTree tree = new MyBinaryTree();
-        tree.testing();
-    }
 }
-
 class MyBinaryTree extends BinaryTree {
     @Override
     public void testing() {
