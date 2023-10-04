@@ -17,11 +17,19 @@ public class BinaryTree {
         this.root = null;
     }
 
+    public void testing() {
+      
+    }
+
     public static void main(String[] args) {
-    
+        MyBinaryTree tree = new MyBinaryTree();
+        tree.testing();
     }
 }
 
 class MyBinaryTree extends BinaryTree {
-    
+    @Override
+    public void testing() {
+        System.out.println("test");
+    }
 }
