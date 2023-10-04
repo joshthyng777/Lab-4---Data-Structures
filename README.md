@@ -1,3 +1,7 @@
+Task:
+
+Josh: Team manager
+
 Subtask 1: Create the class BTPrinting that extends BinaryTree class. Inside this class, implement
 two recursive methods - *Mandy*
 
