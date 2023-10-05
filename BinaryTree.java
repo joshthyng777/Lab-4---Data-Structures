@@ -18,7 +18,9 @@ public class BinaryTree {
     }
 
     public void testing() {
-      
+        BTPrinting btPrinting = new BTPrinting();
+        searchBT searchBT = new searchBT();
+
     }
 }
 class MyBinaryTree extends BinaryTree {
