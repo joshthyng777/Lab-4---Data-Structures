@@ -1,8 +1,14 @@
 public class lab4 {
     public static void main(String[] args) {
 
-        BinaryTree btPrint = new BTPrinting();
-        BinaryTree search = new searchBT();
+        BTPrinting btPrinting = new BTPrinting();
+        searchBT searchBT = new searchBT();
+        
+        System.out.println("btPrint");
+        btPrinting.testing();
+        
+        System.out.println("searchBT");
+        searchBT.testing();
 
     }
 }

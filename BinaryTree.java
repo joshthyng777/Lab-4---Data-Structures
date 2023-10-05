@@ -18,8 +18,17 @@ public class BinaryTree {
     }
 
     public void testing() {
+
         BTPrinting btPrinting = new BTPrinting();
+
+        btPrinting.preOrder();
+        btPrinting.printLeft();
+
         searchBT searchBT = new searchBT();
+        
+        int numToFind = 1;
+        System.out.println(numToFind + " " + searchBT.contains(numToFind));
+        System.out.println("level" + numToFind + " in tree " + searchBT.getLevel(numToFind));
 
     }
 }
