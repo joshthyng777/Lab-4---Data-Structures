@@ -1,4 +1,4 @@
-package lab4;
+
 
 /**
  * This class extends BinaryTree and provides methods for checking the existence
